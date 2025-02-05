@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+}
+#san-valentin {
+    background-image: url(../img/image-container.jpg);
+    background-size: 100% 100%; /*Para que ocupe todo el ancho y alto de la pantalla en todos los dispositivos*/
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    margin: 0;
+}
+
+#container {
+    position: relative;
+}
+
+.elementos {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 55px;
+    color: #8B0000;
+    background-color: rgb(243, 234, 242);
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #8B0000;
+    display: inline-block;
+}
+
+.emojis {
+    font-size: 40px;
+    margin: 0;
+}
+
+.gif-osos {
+    max-width: 100%;
+    height: 350px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-yes {
+    border: 2px solid green;
+    text-decoration: none;
+    background-color: rgb(6, 214, 6);
+    color: #fff;
+    width: 300px;
+    border-radius: 5px;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.btn-yes:hover {
+    color: black;
+    transition: 0.5s;
+    background-color: rgb(9, 243, 9);
+    border: 2px solid rgb(9, 243, 9);
+}
+
+.btn-no {
+    position: absolute;
+    border: 2px solid rgb(155, 2, 2);
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.747);
+    color: #fff;
+    width: 300px;
+    border-radius: 5px;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.btn-no:hover {
+    color: black;
+    transition: 0.5s;
+    background-color: rgb(250, 0, 0);
+    border: 2px solid rgb(250, 0, 0);
+}
+
+/*TODO: segunda pagina*/
+.gif-osos-besandose {
+    mix-blend-mode: multiply; /*Para que el fondo de una imagen se pierda */
+    max-width: 100%;
+    height: 200px;
+}
+
+.img-together {
+    border-radius: 8px;
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 20px;
+}
+
+.message {
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    color: #8B0000;
+    background-color: rgb(243, 234, 242);
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin: 10px 250px;
+}
+
+.love-you {
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    color: red;
+    background-color: rgb(243, 234, 242);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #8B0000;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.oso-saltando {
+    width: 100px;
+    height: 100px;
+}

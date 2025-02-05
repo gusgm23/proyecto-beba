@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/media-queries.css">
+    <link rel="icon" type="image/png" href="assets/img/carta-abierta.png">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0"></script>
+    <title>Mi Bebita</title>
+</head>
+<body>
+    <section id="san-valentin">
+        <div id="container" class="container d-flex justify-content-center align-items-center vh-100">
+            <div class="row text-center">
+                <div class="elementos col">
+                    <h1>Sabía que dirías que si bebita!!!</h1>
+                    <p id="emojis" class="emojis">&#128536;</p>
+                    <img src="assets/img/Imagen de WhatsApp 2025-02-04(1).jpg" alt="img-together" class="img-together img-fluid">
+                    <img src="assets/img/osos-besandose.gif" alt="Ositos besandose" class="gif-osos-besandose">
+                    <img src="assets/img/Imagen de WhatsApp 2025-02-04.jpg" alt="img-together" class="img-together img-fluid">
+                    <div>
+                        <p class="message">Vamos a pasar un día bonito el 14 llenandonos de mucho cariño y amor para seguir alimentando esto tan lindo que sentimos tu y yo además de continuar aprendiendo juntos de un amor sincero, real y único. &#128158;</p>
+                        <strong class="love-you">&#129505; TE QUIERO MUCHISIMO MI REINA &#129505;</strong>
+                    </div>
+                    <img src="assets/img/oso-saltando.gif" alt="Osito saltando" class="oso-saltando img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function lanzarConfeti() {
+            confetti({
+                particleCount: 600, // Número de partículas
+                spread: 150, // Extensión del confeti
+                origin: { x: 0, y: 0.3 }, // Desde el lado izquierdo, al centro
+                angle: 0,
+            });
+
+            confetti({
+                particleCount: 600, // Número de partículas
+                spread: 150, // Extensión del confeti
+                origin: { x: 1, y: 0.3 }, // Desde el lado derecho, al centro
+                angle: 180,
+            });
+        }
+
+        // Ejecutar confeti al cargar la página
+        window.onload = lanzarConfeti;
+    </script>
+</body>
+</html>
